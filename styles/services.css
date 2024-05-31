@@ -1,0 +1,980 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* rwd img css, 可以當作是CSS Reset 其中一個*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 全域 border box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+/* header */
+header {
+  padding: 32px 0px;
+  border-bottom: 1px;
+  border-color: #f1f1f1;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+nav .logo {
+  margin-right: 318px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-item {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.border_corner {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  opacity: 0;
+}
+
+.border-corner-top-left {
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+  left: 0px;
+  top: 0px;
+}
+
+.border-corner-top-right {
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+  top: 0px;
+  right: 0px;
+}
+
+.border-corner-bottom-left {
+  left: 0px;
+  bottom: 0px;
+  border-bottom: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+
+.border-corner-bottom-right {
+  border-bottom: 1px solid #919191;
+  border-right: 1px solid #919191;
+  right: 0px;
+  bottom: 0px;
+}
+
+.nav-item:hover .border_corner {
+  opacity: 1;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+
+.nav-link.active {
+  border: 1px #f1f1f1;
+  font-weight: 600;
+}
+
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-btn .menu-icon {
+  display: none;
+}
+
+.menu-control:checked + .menu-btn .open {
+  display: none;
+}
+
+.menu-control:checked + .menu-btn .close {
+  display: inline;
+}
+
+.menu-control:not(:checked) + .menu-btn .open {
+  display: inline;
+}
+
+.menu-control:not(:checked) + .menu-btn .close {
+  display: none;
+}
+
+.menu-control {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 8px 12px;
+  }
+  nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .navbar-nav {
+    position: absolute;
+    top: 44px;
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+  }
+  .navbar-nav .nav-item .nav-link {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    padding: 4px 8px;
+    position: relative;
+  }
+  ul.navbar-nav.close {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-control:checked ~ .navbar-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+/* footer */
+footer {
+  background-image: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url("/images/footer-bg-lg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0px;
+}
+
+.footerDesc a {
+  margin-bottom: 24px;
+}
+.footerDesc p {
+  color: #3b3b3b;
+}
+.footerDesc .footer-mail {
+  padding-top: 24px;
+  color: #919191;
+}
+
+.footerLink {
+  display: flex;
+  flex-direction: column;
+}
+.footerLink li {
+  margin-bottom: 24px;
+}
+
+.linkBtn {
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #c1c1c1;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkBtn.active,
+.linkBtn.active:hover {
+  background-color: #000000;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  footer {
+    background-image: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url("/images/footer-bg-sm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 12px 0px 12px;
+  }
+  .footerDesc {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .linkBtn {
+    padding: 8px 24px 8px 24px;
+  }
+}
+.servriceItem {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.serviceCard {
+  width: 306px;
+  padding: 80px 0px;
+  border-radius: 16px;
+  background: linear-gradient(rgb(30, 30, 30), rgb(30, 30, 30), rgb(0, 0, 0)), url("/images/service-item-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serviceCard h3 {
+  color: #fff;
+  line-height: 42px;
+}
+
+/*ProcessItem*/
+.processItem {
+  background: linear-gradient(315deg, #1e1e1e 0%, #1e1e1e 49.97%, #000000 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 0px;
+}
+.processItem h2 {
+  color: #ffffff;
+}
+
+.processes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.processes span {
+  padding: 16px 0px;
+  color: #3b3b3b;
+}
+
+.processCard {
+  width: 655px;
+  background: #3b3b3b;
+  padding: 24px 32px;
+  border-radius: 4px;
+  border: 1px solid #919191;
+  display: flex;
+  align-items: center;
+}
+.processCard .processDesc h3 {
+  color: #ffffff;
+}
+.processCard .processDesc p {
+  color: #e9e9e9;
+}
+
+.process-lg {
+  font-family: "Tourney", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  text-align: left;
+  color: #919191;
+  padding: 32px;
+}
+
+/* priceItem */
+.priceItem {
+  padding: 120px 0px;
+}
+.priceItem h2 {
+  color: #3b3b3b;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+.prices .priceCard {
+  background: #fafafa;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+}
+.prices .priceCard .service-item {
+  display: flex;
+  align-items: center;
+  color: #5b5b5b;
+}
+.prices .priceCard .line46 {
+  margin: 0px 12px;
+}
+
+/* SampelItem */
+.samplebg {
+  background-color: #fafafa;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.samples {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.samples .sampleCard {
+  display: flex;
+  flex-direction: column;
+  width: 636px;
+}
+.samples .sampleCard img {
+  margin-bottom: 16px;
+}
+.samples .sampleCard h2 {
+  margin-bottom: 8px;
+}
+.samples .sampleCard p {
+  margin-bottom: 24px;
+}
+.samples .sampleDesc {
+  display: flex;
+  flex-direction: column;
+}
+.samples .sampleDesc .sampleTag {
+  display: flex;
+}
+.samples .sampleDesc .sampleTag li {
+  background-color: #f1f1f1;
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+  margin-right: 16px;
+}
+
+/* Q&A */
+.QAItem {
+  padding: 120px 0px;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.questions .QACard {
+  width: 526px;
+  border: 1px solid #e9e9e9;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.questions .QACard h3 {
+  padding-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .services {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .services .serviceCard {
+    margin-bottom: 24px;
+    align-self: center;
+  }
+  .processItem {
+    padding: 80px 12px;
+  }
+  .processCard {
+    width: 100%;
+    flex-direction: column;
+  }
+  .priceItem {
+    padding: 80px 27px;
+  }
+  .prices {
+    flex-direction: column;
+  }
+  .prices .priceCard {
+    margin-bottom: 24px;
+  }
+  .samplebg {
+    padding: 80px 12px;
+  }
+  .samples .sampleCard {
+    width: 100%;
+  }
+  .samples .sampleCard h2 {
+    font-size: 20px;
+  }
+  .samples .sampleDesc {
+    margin-bottom: 48px;
+  }
+  .QAItem {
+    padding: 80px 20px;
+  }
+  .questions .QACard {
+    width: 100%;
+  }
+}/*# sourceMappingURL=services.css.map */

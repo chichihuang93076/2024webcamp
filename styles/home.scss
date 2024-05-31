@@ -1,0 +1,305 @@
+@import "reset.scss";
+@import "normal.scss";
+@import "header.scss";
+@import "footer.scss";
+
+/* heroHome */
+.heroHome {
+  display: flex;
+  align-items: center;
+}
+
+.heroDesc {
+  margin-right: 24px;
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: $primary-700;
+    padding-bottom: 24px;
+  }
+}
+
+.heroimg {
+  .hero-sm {
+    display: none;
+  }
+}
+
+.herolink {
+  display: flex;
+  padding-top: 60px;
+  .icon-link {
+    padding-right: 16px;
+  }
+}
+
+/* workHome starTravel  */
+.workHome {
+  padding-top: 120px;
+}
+
+.starTravel {
+  background-image: url("/images/homepage-work1-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.ticketSite {
+  align-self: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 56px;
+  margin-left: 56px;
+}
+
+.ticketContent {
+  margin: 80px 40px 40px 40px;
+  border-bottom: 1px solid rgba(241, 241, 241, 1);
+  h3 {
+    color: #ffffff;
+    padding-bottom: 8px;
+  }
+  p {
+    color: #ffffff;
+    padding-bottom: 24px;
+  }
+  ul {
+    display: flex;
+    padding-right: 16px;
+    padding-bottom: 40px;
+    li {
+      margin-right: 16px;
+    }
+  }
+}
+
+.btn-lg {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffffff;
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 8px;
+  }
+}
+
+/* financialApp  */
+.financialApp {
+  background-image: url("/images/homepage-work2-lg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-start;
+  .ticketSite {
+    margin: 312px 200px 110px 200px;
+  }
+}
+
+.rectangle3843 {
+  background: rgba(10, 16, 19, 0.5);
+}
+
+/* medicalBeauty  */
+.medicalBeauty {
+  background-image: linear-gradient(rgba(13, 12, 7, 0.5), rgba(13, 12, 7, 0.5)),
+    url("/images/homepage-work3-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  .ticketSite {
+    margin-left: 49px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .beautyimg {
+    margin-top: 176px;
+    margin-bottom: 112px;
+  }
+}
+
+/* ServiceHome */
+.serviceHome {
+  padding-top: 120px;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.serviceCard {
+  width: 306px;
+  padding: 80px 0px;
+  border-radius: 16px;
+  background: linear-gradient(
+      rgba(30, 30, 30, 1),
+      rgba(30, 30, 30, 1),
+      rgba(0, 0, 0, 1)
+    ),
+    url("/images/service-item-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    color: #fff;
+    line-height: 42px;
+  }
+}
+
+.setviceNote {
+  margin: 80px 0px 120px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    margin-bottom: 40px;
+  }
+}
+
+/* Article Home*/
+.articleHome {
+  margin-bottom: 120px;
+}
+
+.articleCard {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 40px;
+  .article-img img {
+    border-radius: 8px 8px 8px 8px;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .article-desc {
+    /*flex-grow: 1;*/
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 12px 8px 12px 8px;
+  }
+
+  .article-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .tag {
+      background: rgba(241, 241, 241, 1);
+      padding: 4px 12px 4px 12px;
+      border-radius: 16px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .heroHome {
+    flex-direction: column-reverse;
+    .heroDesc {
+      margin-right: 0px;
+      padding: 40px 0px 40px 0px;
+      text-align: center;
+    }
+  }
+
+  .heroimg {
+    .hero-lg {
+      display: none;
+    }
+    .hero-sm {
+      display: block;
+    }
+  }
+
+  .starTravel {
+    background-image: none;
+    flex-direction: column;
+    .starimg {
+      padding: 93px 40px 0px 40px;
+      background-image: url("/images/homepage-work1-bg.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+
+  .ticketSite {
+    padding-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px 24px 48px 24px;
+  }
+  .ticketContent {
+    margin: 24px 24px 20px 24px;
+    h3,
+    p {
+      color: $primary-800;
+    }
+    ul {
+      padding-right: 0px;
+      padding-bottom: 0px;
+      justify-content: space-around;
+    }
+  }
+
+  .financialApp {
+    background-image: none;
+    flex-direction: column;
+    .ticketSite {
+      margin: 0px;
+    }
+    .rectangle3843 {
+      background: none;
+    }
+  }
+
+  .medicalBeauty {
+    background-image: none;
+    flex-direction: column;
+    .beautyimg {
+      margin: 0px;
+      background-image: url("/images/homepage-work3-bg.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 90px 40px;
+    }
+    .ticketSite {
+      margin: 0px;
+    }
+  }
+
+  .services {
+    flex-direction: column;
+    margin: 0px;
+    .serviceCard {
+      margin-bottom: 24px;
+      align-self: center;
+    }
+  }
+
+  .articles {
+    padding: 0px 12px;
+    .articleCard {
+      .article-desc {
+        padding: 16px 8px 16px 8px;
+      }
+      .article-tag {
+        padding: 0px 8px;
+      }
+    }
+  }
+}
