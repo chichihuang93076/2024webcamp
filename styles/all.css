@@ -431,6 +431,7 @@ nav .logo {
 .navbar-nav {
   display: flex;
   align-items: center;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -526,6 +527,9 @@ nav .logo {
   nav {
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  nav a.logo {
+    margin-right: 0px;
   }
   .navbar-nav {
     position: absolute;
@@ -993,6 +997,7 @@ nav .logo {
 .navbar-nav {
   display: flex;
   align-items: center;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -1088,6 +1093,9 @@ nav .logo {
   nav {
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  nav a.logo {
+    margin-right: 0px;
   }
   .navbar-nav {
     position: absolute;
@@ -1364,7 +1372,7 @@ footer {
 }
 
 .starTravel {
-  background-image: url("https://github.com/chichihuang93076/2024webcamp/blob/main/images/homepage-work1-bg.png");
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work1-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1423,7 +1431,7 @@ footer {
 
 /* financialApp  */
 .financialApp {
-  background-image: url("https://github.com/chichihuang93076/2024webcamp/blob/main/images/homepage-work2-lg.png");
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work2-lg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1440,7 +1448,7 @@ footer {
 
 /* medicalBeauty  */
 .medicalBeauty {
-  background-image: linear-gradient(rgba(13, 12, 7, 0.5), rgba(13, 12, 7, 0.5)), url("https://github.com/chichihuang93076/2024webcamp/blob/main/images/homepage-work3-bg.png");
+  background-image: linear-gradient(rgba(13, 12, 7, 0.5), rgba(13, 12, 7, 0.5)), url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work3-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1471,7 +1479,7 @@ footer {
   width: 306px;
   padding: 80px 0px;
   border-radius: 16px;
-  background: linear-gradient(rgb(30, 30, 30), rgb(30, 30, 30), rgb(0, 0, 0)), url("https://github.com/chichihuang93076/2024webcamp/blob/main/images/service-item-bg.png");
+  background: linear-gradient(rgb(30, 30, 30), rgb(30, 30, 30), rgb(0, 0, 0)), url("https://chichihuang93076.github.io/2024webcamp/images/service-item-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -1547,7 +1555,7 @@ footer {
   }
   .starTravel .starimg {
     padding: 93px 40px 0px 40px;
-    background-image: url("https://github.com/chichihuang93076/2024webcamp/blob/main/images/homepage-work1-bg.png");
+    background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work1-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1585,7 +1593,7 @@ footer {
   }
   .medicalBeauty .beautyimg {
     margin: 0px;
-    background-image: url("https://github.com/chichihuang93076/2024webcamp/blob/main/images/homepage-work3-bg.png");
+    background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work3-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

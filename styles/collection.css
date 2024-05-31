@@ -431,6 +431,7 @@ nav .logo {
 .navbar-nav {
   display: flex;
   align-items: center;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -526,6 +527,9 @@ nav .logo {
   nav {
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  nav a.logo {
+    margin-right: 0px;
   }
   .navbar-nav {
     position: absolute;
@@ -767,6 +771,13 @@ footer {
     padding: 8px 24px 8px 24px;
   }
 }
+.navbar {
+  justify-content: flex-start;
+}
+.navbar a.logo {
+  margin-right: 318px;
+}
+
 .titles {
   background-color: #fafafa;
   padding: 80px 0px 80px 0px;
@@ -881,6 +892,12 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .navbar a.logo {
+    margin-right: 0px;
+  }
   .titleDesc {
     flex-direction: column;
   }

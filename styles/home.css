@@ -431,6 +431,7 @@ nav .logo {
 .navbar-nav {
   display: flex;
   align-items: center;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -526,6 +527,9 @@ nav .logo {
   nav {
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  nav a.logo {
+    margin-right: 0px;
   }
   .navbar-nav {
     position: absolute;
