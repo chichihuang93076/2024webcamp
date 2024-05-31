@@ -1364,7 +1364,7 @@ footer {
 }
 
 .starTravel {
-  background-image: url("/images/homepage-work1-bg.png");
+  background-image: url("./images/homepage-work1-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1423,7 +1423,7 @@ footer {
 
 /* financialApp  */
 .financialApp {
-  background-image: url("/images/homepage-work2-lg.png");
+  background-image: url("./images/homepage-work2-lg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1440,7 +1440,7 @@ footer {
 
 /* medicalBeauty  */
 .medicalBeauty {
-  background-image: linear-gradient(rgba(13, 12, 7, 0.5), rgba(13, 12, 7, 0.5)), url("/images/homepage-work3-bg.png");
+  background-image: linear-gradient(rgba(13, 12, 7, 0.5), rgba(13, 12, 7, 0.5)), url("./images/homepage-work3-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1471,7 +1471,7 @@ footer {
   width: 306px;
   padding: 80px 0px;
   border-radius: 16px;
-  background: linear-gradient(rgb(30, 30, 30), rgb(30, 30, 30), rgb(0, 0, 0)), url("/images/service-item-bg.png");
+  background: linear-gradient(rgb(30, 30, 30), rgb(30, 30, 30), rgb(0, 0, 0)), url("./images/service-item-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -1498,13 +1498,9 @@ footer {
   margin-bottom: 120px;
 }
 
-.articles {
-  display: flex;
-  justify-content: space-between;
-}
-
 .articleCard {
   border: 1px solid #f1f1f1;
+  margin-bottom: 40px;
 }
 .articleCard .article-img img {
   border-radius: 8px 8px 8px 8px;
@@ -1551,7 +1547,7 @@ footer {
   }
   .starTravel .starimg {
     padding: 93px 40px 0px 40px;
-    background-image: url("/images/homepage-work1-bg.png");
+    background-image: url("./images/homepage-work1-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1589,7 +1585,7 @@ footer {
   }
   .medicalBeauty .beautyimg {
     margin: 0px;
-    background-image: url("/images/homepage-work3-bg.png");
+    background-image: url("./images/homepage-work3-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1607,18 +1603,13 @@ footer {
     align-self: center;
   }
   .articles {
-    flex-direction: column;
-    align-items: center;
     padding: 0px 12px;
-  }
-  .articles .articleCard {
-    width: 100%;
   }
   .articles .articleCard .article-desc {
     padding: 16px 8px 16px 8px;
   }
   .articles .articleCard .article-tag {
-    padding: 0px 8px 48px 8px;
+    padding: 0px 8px;
   }
 }
 body {
