@@ -65,7 +65,7 @@ h5 {
 /* Text decorate */
 .mark {
   background-color: #ffffff;
-  background-image: url("/images/icon/mark.png");
+  background-image: url("./images/icon/mark.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
