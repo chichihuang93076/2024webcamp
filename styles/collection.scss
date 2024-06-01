@@ -90,7 +90,7 @@
   margin-right: 16px;
 }
 
-// pagination
+/* pagination */
 .pagination {
   padding: 72px 0px 120px 0px;
   .paginationList {
@@ -117,6 +117,44 @@
       }
     }
   }
+}
+
+/*  modal */
+
+.modalHeader {
+  text-align: center;
+  .modalDesc {
+    display: flex;
+    padding: 40px 56px;
+    .desc1 {
+      padding-right: 72px;
+    }
+    .desc2 {
+      width: 55%;
+      padding-left: 24px;
+      border-left: 1px solid #C1C1C1;
+      p{
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+.madalContent {
+  text-align: center;
+  background: #FAFAFA;
+  padding: 80px 0px;
+  .modalCard {
+    padding-bottom: 56px;
+    img {
+      margin-bottom: 24px;
+      border-radius: 20px;
+    }
+    h4 {
+      margin-bottom: 16px;
+    }
+  }
+  
+  
 }
 
 @media (max-width: 767px) {

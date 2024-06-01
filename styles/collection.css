@@ -863,6 +863,7 @@ footer {
   margin-right: 16px;
 }
 
+/* pagination */
 .pagination {
   padding: 72px 0px 120px 0px;
 }
@@ -889,6 +890,42 @@ footer {
 .pagination .paginationList li a.active {
   background-color: #020202;
   color: #ffffff;
+}
+
+/*  modal */
+.modalHeader {
+  text-align: center;
+}
+.modalHeader .modalDesc {
+  display: flex;
+  padding: 40px 56px;
+}
+.modalHeader .modalDesc .desc1 {
+  padding-right: 72px;
+}
+.modalHeader .modalDesc .desc2 {
+  width: 55%;
+  padding-left: 24px;
+  border-left: 1px solid #C1C1C1;
+}
+.modalHeader .modalDesc .desc2 p {
+  margin-bottom: 8px;
+}
+
+.madalContent {
+  text-align: center;
+  background: #FAFAFA;
+  padding: 80px 0px;
+}
+.madalContent .modalCard {
+  padding-bottom: 56px;
+}
+.madalContent .modalCard img {
+  margin-bottom: 24px;
+  border-radius: 20px;
+}
+.madalContent .modalCard h4 {
+  margin-bottom: 16px;
 }
 
 @media (max-width: 767px) {

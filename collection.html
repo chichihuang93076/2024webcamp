@@ -76,9 +76,7 @@
             alt="quote-left"
           />
           <h4>
-            讓使用者在觀賞與使用的旅程中，發現<mark class="mark"
-              >設計的價值</mark
-            >
+            讓使用者在觀賞與使用的旅程中，發現<mark class="mark">設計的價值</mark>
           </h4>
           <h4>
             而我在設計與開發的過程中，看見<mark class="mark"> 自己的價值</mark>
@@ -107,9 +105,49 @@
           </div>
         </div>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modalHeader">
+                <h3>星際旅行訂票平台</h3>
+                <p class="fs-6">悠遊宇宙的夢想，從這裡開始實現</p>
+                <div class="modalDesc">
+                  <div class="desc1">
+                    <p class="fs-6">STAR TRAVEL 為 KK 公司宇宙旅行的購票網站。</p>
+                    <p class="fs-6">主要從地球出發，目的地包含月球、火星、水星、木星；未來太空轉運站建置完畢，將再擴增目的地土星和金星。</p> 
+                  </div>
+                <div class="desc2">
+                  <p class="fs-6">設計原則：宇宙旅行、深色背景、強烈視覺效果</p>
+                  <p class="fs-6">開發方式：Bootstrap、Javascript、RWD</p>
+                </div>
+                 
+                </div>
+              </div>
+              <ul class="madalContent">
+                <li class="modalCard">
+                  <img src="./images/modal-image1.png" alt="modal-image1">
+                  <h4>主視覺</h4>
+                  <p class="fs-6">可直接設定日期、起迄星球、張數，快速查詢可購買的票券。</p>
+                </li>
+                <li class="modalCard">
+                  <img src="./images/modal-image2.png" alt="modal-image2">
+                  <h4>推薦查詢</h4>
+                  <p class="fs-6">給予最快起飛，以及最熱門的景點推薦，協助使用者進行選擇。</p>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
       <div class="container works">
-        <ul class="works_list">
-          <li class="works_card">
+        <ul class="works_list" >
+          <li class="works_card" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="./images/work-image1.png" alt="work-image1.png" />
             <div class="works_desc">
               <h2>星際旅行訂票平台</h2>
