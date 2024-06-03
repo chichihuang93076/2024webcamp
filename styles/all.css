@@ -565,6 +565,289 @@ nav .logo {
     align-items: center;
   }
 }
+/* heroHome */
+.heroHome {
+  display: flex;
+  align-items: center;
+}
+
+.heroDesc {
+  margin-right: 24px;
+}
+.heroDesc h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #3b3b3b;
+  padding-bottom: 24px;
+}
+
+.heroimg .hero-sm {
+  display: none;
+}
+
+.herolink {
+  display: flex;
+  padding-top: 60px;
+}
+.herolink .icon-link {
+  padding-right: 16px;
+}
+
+/* workHome starTravel  */
+.workHome {
+  padding-top: 120px;
+}
+
+.starTravel {
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work1-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.ticketSite {
+  align-self: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 56px;
+  margin-left: 56px;
+}
+
+.ticketContent {
+  margin: 80px 40px 40px 40px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+.ticketContent h3 {
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+.ticketContent p {
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.ticketContent ul {
+  display: flex;
+  padding-right: 16px;
+  padding-bottom: 40px;
+}
+.ticketContent ul li {
+  margin-right: 16px;
+}
+
+.btn-lg {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffffff;
+}
+.btn-lg a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-right: 8px;
+}
+
+/* financialApp  */
+.financialApp {
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work2-lg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-start;
+}
+.financialApp .ticketSite {
+  margin: 312px 200px 110px 200px;
+}
+
+.rectangle3843 {
+  background: rgba(10, 16, 19, 0.5);
+}
+
+/* medicalBeauty  */
+.medicalBeauty {
+  background-image: linear-gradient(rgba(13, 12, 7, 0.5), rgba(13, 12, 7, 0.5)), url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work3-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+}
+.medicalBeauty .ticketSite {
+  margin-left: 49px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.medicalBeauty .beautyimg {
+  margin-top: 176px;
+  margin-bottom: 112px;
+}
+
+/* ServiceHome */
+.serviceHome {
+  padding-top: 120px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.serviceCard {
+  width: 306px;
+  padding: 80px 0px;
+  border-radius: 16px;
+  background: linear-gradient(rgb(30, 30, 30), rgb(30, 30, 30), rgb(0, 0, 0)), url("https://chichihuang93076.github.io/2024webcamp/images/service-item-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serviceCard h3 {
+  color: #fff;
+  line-height: 42px;
+}
+
+.setviceNote {
+  margin: 80px 0px 120px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.setviceNote h3 {
+  margin-bottom: 40px;
+}
+
+/* Article Home*/
+.articleHome {
+  margin-bottom: 120px;
+}
+
+.articleCard {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 40px;
+}
+.articleCard .article-img img {
+  border-radius: 8px 8px 8px 8px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.articleCard .article-desc {
+  /*flex-grow: 1;*/
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  padding: 12px 8px 12px 8px;
+}
+.articleCard .article-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articleCard .article-tag .tag {
+  background: rgb(241, 241, 241);
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+}
+
+@media (max-width: 767px) {
+  .heroHome {
+    flex-direction: column-reverse;
+  }
+  .heroHome .heroDesc {
+    margin-right: 0px;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+  }
+  .heroimg .hero-lg {
+    display: none;
+  }
+  .heroimg .hero-sm {
+    display: block;
+  }
+  .starTravel {
+    background-image: none;
+    flex-direction: column;
+  }
+  .starTravel .starimg {
+    padding: 93px 40px 0px 40px;
+    background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work1-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .ticketSite {
+    padding-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px 24px 48px 24px;
+  }
+  .ticketContent {
+    margin: 24px 24px 20px 24px;
+  }
+  .ticketContent h3,
+  .ticketContent p {
+    color: #1e1e1e;
+  }
+  .ticketContent ul {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    justify-content: space-around;
+  }
+  .financialApp {
+    background-image: none;
+    flex-direction: column;
+  }
+  .financialApp .ticketSite {
+    margin: 0px;
+  }
+  .financialApp .rectangle3843 {
+    background: none;
+  }
+  .medicalBeauty {
+    background-image: none;
+    flex-direction: column;
+  }
+  .medicalBeauty .beautyimg {
+    margin: 0px;
+    background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work3-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 90px 40px;
+  }
+  .medicalBeauty .ticketSite {
+    margin: 0px;
+  }
+  .services {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .services .serviceCard {
+    margin-bottom: 24px;
+    align-self: center;
+  }
+  .articles {
+    padding: 0px 12px;
+  }
+  .articles .articleCard .article-desc {
+    padding: 16px 8px 16px 8px;
+  }
+  .articles .articleCard .article-tag {
+    padding: 0px 8px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -1337,137 +1620,962 @@ footer {
     padding: 8px 24px 8px 24px;
   }
 }
-/* heroHome */
-.heroHome {
-  display: flex;
-  align-items: center;
+.navbar {
+  justify-content: flex-start;
+}
+.navbar a.logo {
+  margin-right: 318px;
 }
 
-.heroDesc {
-  margin-right: 24px;
-}
-.heroDesc h1 {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  color: #3b3b3b;
-  padding-bottom: 24px;
-}
-
-.heroimg .hero-sm {
-  display: none;
-}
-
-.herolink {
-  display: flex;
-  padding-top: 60px;
-}
-.herolink .icon-link {
-  padding-right: 16px;
-}
-
-/* workHome starTravel  */
-.workHome {
-  padding-top: 120px;
-}
-
-.starTravel {
-  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work1-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
-}
-
-.ticketSite {
-  align-self: center;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 24px;
+.titles {
+  background-color: #fafafa;
+  padding: 80px 0px 80px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 56px;
-  margin-left: 56px;
+}
+.titles .title {
+  position: relative;
+  padding: 59px 71px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.titles .title .quote-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.titles .title .quote-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
-.ticketContent {
-  margin: 80px 40px 40px 40px;
-  border-bottom: 1px solid rgb(241, 241, 241);
-}
-.ticketContent h3 {
-  color: #ffffff;
-  padding-bottom: 8px;
-}
-.ticketContent p {
-  color: #ffffff;
-  padding-bottom: 24px;
-}
-.ticketContent ul {
+.titleDesc {
   display: flex;
-  padding-right: 16px;
-  padding-bottom: 40px;
 }
-.ticketContent ul li {
+.titleDesc .titleCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 298px;
+  margin-right: 40px;
+}
+
+.works_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.works_card {
+  width: calc(50% - 12px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.works_card img {
+  display: block;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.works_card .works_desc {
+  padding: 0px 16px 0px 16px;
+}
+
+.works_card h2 {
+  color: #3b3b3b;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  margin-bottom: 8px;
+}
+
+.works_card p {
+  margin-bottom: 24px;
+}
+
+.works_tags {
+  display: flex;
+}
+
+.works_tags li {
+  background-color: #f1f1f1;
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
   margin-right: 16px;
 }
 
-.btn-lg {
-  display: flex;
-  align-items: center;
-  padding: 16px 32px 16px 32px;
-  border-radius: 5px;
-  background-color: #000;
-  color: #ffffff;
+/* pagination */
+.pagination {
+  padding: 72px 0px 120px 0px;
 }
-.btn-lg a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  padding-right: 8px;
-}
-
-/* financialApp  */
-.financialApp {
-  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work2-lg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: flex;
-  justify-content: flex-start;
-}
-.financialApp .ticketSite {
-  margin: 312px 200px 110px 200px;
-}
-
-.rectangle3843 {
-  background: rgba(10, 16, 19, 0.5);
-}
-
-/* medicalBeauty  */
-.medicalBeauty {
-  background-image: linear-gradient(rgba(13, 12, 7, 0.5), rgba(13, 12, 7, 0.5)), url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work3-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.pagination .paginationList {
   display: flex;
   justify-content: center;
 }
-.medicalBeauty .ticketSite {
-  margin-left: 49px;
-  margin-top: 200px;
-  margin-bottom: 200px;
+.pagination .paginationList p {
+  font-size: 16px;
 }
-.medicalBeauty .beautyimg {
-  margin-top: 176px;
-  margin-bottom: 112px;
+.pagination .paginationList li {
+  width: 40px;
+  margin-right: 16px;
+}
+.pagination .paginationList li a {
+  display: block;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: #020202;
+  padding: 2px 13px;
+  border-radius: 4px;
+}
+.pagination .paginationList li a.active {
+  background-color: #020202;
+  color: #ffffff;
 }
 
-/* ServiceHome */
-.serviceHome {
+/*  modal */
+.modalHeader {
+  text-align: center;
+}
+.modalHeader .modalDesc {
+  display: flex;
+  padding: 40px 56px;
+}
+.modalHeader .modalDesc .desc1 {
+  padding-right: 72px;
+}
+.modalHeader .modalDesc .desc2 {
+  width: 55%;
+  padding-left: 24px;
+  border-left: 1px solid #C1C1C1;
+}
+.modalHeader .modalDesc .desc2 p {
+  margin-bottom: 8px;
+}
+
+.madalContent {
+  text-align: center;
+  background: #FAFAFA;
+  padding: 80px 0px;
+}
+.madalContent .modalCard {
+  padding-bottom: 56px;
+}
+.madalContent .modalCard img {
+  margin-bottom: 24px;
+  border-radius: 20px;
+}
+.madalContent .modalCard h4 {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .navbar a.logo {
+    margin-right: 0px;
+  }
+  .titleDesc {
+    flex-direction: column;
+  }
+  .titleDesc .titleCard {
+    width: 235px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  .works_list {
+    flex-direction: column;
+    margin: 0px 12px;
+  }
+  .works_list .works_card {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* rwd img css, 可以當作是CSS Reset 其中一個*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 全域 border box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+/* header */
+header {
+  padding: 32px 0px;
+  border-bottom: 1px;
+  border-color: #f1f1f1;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+nav .logo {
+  margin-right: 318px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.nav-item {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.border_corner {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  opacity: 0;
+}
+
+.border-corner-top-left {
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+  left: 0px;
+  top: 0px;
+}
+
+.border-corner-top-right {
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+  top: 0px;
+  right: 0px;
+}
+
+.border-corner-bottom-left {
+  left: 0px;
+  bottom: 0px;
+  border-bottom: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+
+.border-corner-bottom-right {
+  border-bottom: 1px solid #919191;
+  border-right: 1px solid #919191;
+  right: 0px;
+  bottom: 0px;
+}
+
+.nav-item:hover .border_corner {
+  opacity: 1;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+
+.nav-link.active {
+  border: 1px #f1f1f1;
+  font-weight: 600;
+}
+
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-btn .menu-icon {
+  display: none;
+}
+
+.menu-control:checked + .menu-btn .open {
+  display: none;
+}
+
+.menu-control:checked + .menu-btn .close {
+  display: inline;
+}
+
+.menu-control:not(:checked) + .menu-btn .open {
+  display: inline;
+}
+
+.menu-control:not(:checked) + .menu-btn .close {
+  display: none;
+}
+
+.menu-control {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 8px 12px;
+  }
+  nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  nav a.logo {
+    margin-right: 0px;
+  }
+  .navbar-nav {
+    position: absolute;
+    top: 44px;
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+  }
+  .navbar-nav .nav-item .nav-link {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    padding: 4px 8px;
+    position: relative;
+  }
+  ul.navbar-nav.close {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-control:checked ~ .navbar-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+/* footer */
+footer {
+  background-image: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url("https://chichihuang93076.github.io/2024webcamp/images/footer-bg-lg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0px;
+}
+
+.footerDesc a {
+  margin-bottom: 24px;
+}
+.footerDesc p {
+  color: #3b3b3b;
+}
+.footerDesc .footer-mail {
+  padding-top: 24px;
+  color: #919191;
+}
+
+.footerLink {
+  display: flex;
+  flex-direction: column;
+}
+.footerLink li {
+  margin-bottom: 24px;
+}
+
+.linkBtn {
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #c1c1c1;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkBtn.active,
+.linkBtn.active:hover {
+  background-color: #000000;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  footer {
+    background-image: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url("https://chichihuang93076.github.io/2024webcamp/images/footer-bg-sm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 12px 0px 12px;
+  }
+  .footerDesc {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .linkBtn {
+    padding: 8px 24px 8px 24px;
+  }
+}
+.servriceItem {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .services {
@@ -1491,117 +2599,148 @@ footer {
   line-height: 42px;
 }
 
-.setviceNote {
-  margin: 80px 0px 120px 0px;
+/*ProcessItem*/
+.processItem {
+  background: linear-gradient(315deg, #1e1e1e 0%, #1e1e1e 49.97%, #000000 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 0px;
+}
+.processItem h2 {
+  color: #ffffff;
+}
+
+.processes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.setviceNote h3 {
-  margin-bottom: 40px;
+.processes span {
+  padding: 16px 0px;
+  color: #3b3b3b;
 }
 
-/* Article Home*/
-.articleHome {
-  margin-bottom: 120px;
-}
-
-.articleCard {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 40px;
-}
-.articleCard .article-img img {
-  border-radius: 8px 8px 8px 8px;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.articleCard .article-desc {
-  /*flex-grow: 1;*/
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: bold;
-  padding: 12px 8px 12px 8px;
-}
-.articleCard .article-tag {
+.processCard {
+  width: 655px;
+  background: #3b3b3b;
+  padding: 24px 32px;
+  border-radius: 4px;
+  border: 1px solid #919191;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-.articleCard .article-tag .tag {
-  background: rgb(241, 241, 241);
+.processCard .processDesc h3 {
+  color: #ffffff;
+}
+.processCard .processDesc p {
+  color: #e9e9e9;
+}
+
+.process-lg {
+  font-family: "Tourney", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  text-align: left;
+  color: #919191;
+  padding: 32px;
+}
+
+/* priceItem */
+.priceItem {
+  padding: 120px 0px;
+}
+.priceItem h2 {
+  color: #3b3b3b;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+.prices .priceCard {
+  background: #fafafa;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+}
+.prices .priceCard .service-item {
+  display: flex;
+  align-items: center;
+  color: #5b5b5b;
+}
+.prices .priceCard .line46 {
+  margin: 0px 12px;
+}
+
+/* SampelItem */
+.samplebg {
+  background-color: #fafafa;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.samples {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.samples .sampleCard {
+  display: flex;
+  flex-direction: column;
+  width: 636px;
+}
+.samples .sampleCard img {
+  margin-bottom: 16px;
+}
+.samples .sampleCard h2 {
+  margin-bottom: 8px;
+}
+.samples .sampleCard p {
+  margin-bottom: 24px;
+}
+.samples .sampleDesc {
+  display: flex;
+  flex-direction: column;
+}
+.samples .sampleDesc .sampleTag {
+  display: flex;
+}
+.samples .sampleDesc .sampleTag li {
+  background-color: #f1f1f1;
   padding: 4px 12px 4px 12px;
   border-radius: 16px;
+  margin-right: 16px;
+}
+
+/* Q&A */
+.QAItem {
+  padding: 120px 0px;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.questions .QACard {
+  width: 526px;
+  border: 1px solid #e9e9e9;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.questions .QACard h3 {
+  padding-bottom: 16px;
 }
 
 @media (max-width: 767px) {
-  .heroHome {
-    flex-direction: column-reverse;
-  }
-  .heroHome .heroDesc {
-    margin-right: 0px;
-    padding: 40px 0px 40px 0px;
-    text-align: center;
-  }
-  .heroimg .hero-lg {
-    display: none;
-  }
-  .heroimg .hero-sm {
-    display: block;
-  }
-  .starTravel {
-    background-image: none;
-    flex-direction: column;
-  }
-  .starTravel .starimg {
-    padding: 93px 40px 0px 40px;
-    background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work1-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-  .ticketSite {
-    padding-bottom: 0px;
-    margin-left: 0px;
-    padding: 0px 24px 48px 24px;
-  }
-  .ticketContent {
-    margin: 24px 24px 20px 24px;
-  }
-  .ticketContent h3,
-  .ticketContent p {
-    color: #1e1e1e;
-  }
-  .ticketContent ul {
-    padding-right: 0px;
-    padding-bottom: 0px;
-    justify-content: space-around;
-  }
-  .financialApp {
-    background-image: none;
-    flex-direction: column;
-  }
-  .financialApp .ticketSite {
-    margin: 0px;
-  }
-  .financialApp .rectangle3843 {
-    background: none;
-  }
-  .medicalBeauty {
-    background-image: none;
-    flex-direction: column;
-  }
-  .medicalBeauty .beautyimg {
-    margin: 0px;
-    background-image: url("https://chichihuang93076.github.io/2024webcamp/images/homepage-work3-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 90px 40px;
-  }
-  .medicalBeauty .ticketSite {
-    margin: 0px;
-  }
   .services {
     flex-direction: column;
     margin: 0px;
@@ -1610,16 +2749,928 @@ footer {
     margin-bottom: 24px;
     align-self: center;
   }
-  .articles {
-    padding: 0px 12px;
+  .processItem {
+    padding: 80px 12px;
   }
-  .articles .articleCard .article-desc {
-    padding: 16px 8px 16px 8px;
+  .processCard {
+    width: 100%;
+    flex-direction: column;
   }
-  .articles .articleCard .article-tag {
-    padding: 0px 8px;
+  .priceItem {
+    padding: 80px 27px;
+  }
+  .prices {
+    flex-direction: column;
+  }
+  .prices .priceCard {
+    margin-bottom: 24px;
+  }
+  .samplebg {
+    padding: 80px 12px;
+  }
+  .samples .sampleCard {
+    width: 100%;
+  }
+  .samples .sampleCard h2 {
+    font-size: 20px;
+  }
+  .samples .sampleDesc {
+    margin-bottom: 48px;
+  }
+  .QAItem {
+    padding: 80px 20px;
+  }
+  .questions .QACard {
+    width: 100%;
   }
 }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* rwd img css, 可以當作是CSS Reset 其中一個*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 全域 border box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+/* header */
+header {
+  padding: 32px 0px;
+  border-bottom: 1px;
+  border-color: #f1f1f1;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+nav .logo {
+  margin-right: 318px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.nav-item {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.border_corner {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  opacity: 0;
+}
+
+.border-corner-top-left {
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+  left: 0px;
+  top: 0px;
+}
+
+.border-corner-top-right {
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+  top: 0px;
+  right: 0px;
+}
+
+.border-corner-bottom-left {
+  left: 0px;
+  bottom: 0px;
+  border-bottom: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+
+.border-corner-bottom-right {
+  border-bottom: 1px solid #919191;
+  border-right: 1px solid #919191;
+  right: 0px;
+  bottom: 0px;
+}
+
+.nav-item:hover .border_corner {
+  opacity: 1;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+
+.nav-link.active {
+  border: 1px #f1f1f1;
+  font-weight: 600;
+}
+
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-btn .menu-icon {
+  display: none;
+}
+
+.menu-control:checked + .menu-btn .open {
+  display: none;
+}
+
+.menu-control:checked + .menu-btn .close {
+  display: inline;
+}
+
+.menu-control:not(:checked) + .menu-btn .open {
+  display: inline;
+}
+
+.menu-control:not(:checked) + .menu-btn .close {
+  display: none;
+}
+
+.menu-control {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 8px 12px;
+  }
+  nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  nav a.logo {
+    margin-right: 0px;
+  }
+  .navbar-nav {
+    position: absolute;
+    top: 44px;
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+  }
+  .navbar-nav .nav-item .nav-link {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    padding: 4px 8px;
+    position: relative;
+  }
+  ul.navbar-nav.close {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-control:checked ~ .navbar-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24x;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b3b3b;
+}
+
+/* Text decorate */
+.mark {
+  background-color: #ffffff;
+  background-image: url("https://chichihuang93076.github.io/2024webcamp/images/icon/mark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* 線條和逗點 */
+.dot {
+  background-color: #c1c1c1;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot12 {
+  background-color: #e9e9e9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.line94 {
+  background-color: #c1c1c1;
+  width: 94px;
+  height: 1px;
+}
+
+.line45 {
+  background-color: #c1c1c1;
+  width: 24px;
+  height: 2px;
+}
+
+.line46 {
+  background-color: #c1c1c1;
+  width: 41px;
+  height: 1px;
+}
+
+.line47 {
+  background-color: #1e1e1e;
+  width: 80px;
+  height: 2px;
+}
+
+.title-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+.title-lg h2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.tag {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+@media (max-width: 767px) {
+  .tag {
+    background-color: #f1f1f1;
+  }
+}
+/* footer */
+footer {
+  background-image: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url("https://chichihuang93076.github.io/2024webcamp/images/footer-bg-lg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0px;
+}
+
+.footerDesc a {
+  margin-bottom: 24px;
+}
+.footerDesc p {
+  color: #3b3b3b;
+}
+.footerDesc .footer-mail {
+  padding-top: 24px;
+  color: #919191;
+}
+
+.footerLink {
+  display: flex;
+  flex-direction: column;
+}
+.footerLink li {
+  margin-bottom: 24px;
+}
+
+.linkBtn {
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #c1c1c1;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkBtn.active,
+.linkBtn.active:hover {
+  background-color: #000000;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  footer {
+    background-image: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url("https://chichihuang93076.github.io/2024webcamp/images/footer-bg-sm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 12px 0px 12px;
+  }
+  .footerDesc {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .linkBtn {
+    padding: 8px 24px 8px 24px;
+  }
+}
+.blogTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.blogTitle .title-lg {
+  margin-bottom: 24px;
+}
+.blogTitle p {
+  color: #919191;
+}
+
+.blogItem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.blogs {
+  width: 966px;
+  padding-right: 24px;
+}
+
+.blogmenu {
+  width: 306px;
+  background: #fafafa;
+  padding: 80px 0px 0px 80px;
+  border-radius: 8px;
+  gap: 32px;
+}
+.blogmenu .memuall {
+  color: #1e1e1e;
+}
+.blogmenu .menutag {
+  padding-bottom: 32px;
+}
+.blogmenu a {
+  color: #5b5b5b;
+  padding-bottom: 4px;
+}
+.blogmenu a:hover {
+  color: #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.blogCard {
+  display: flex;
+  margin-bottom: 64px;
+}
+.blogCard img {
+  margin-bottom: 16px;
+}
+.blogCard .blogDesc {
+  padding-left: 16px;
+}
+.blogCard .blogDesc .blogtag {
+  display: flex;
+  align-items: center;
+}
+.blogCard .blogDesc .blogtag .tag {
+  background: #f1f1f1;
+  margin-left: 16px;
+}
+
+.blogPaper h5 {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .blogItem {
+    flex-direction: column-reverse;
+    margin: 0px 34.5px;
+  }
+  .blogmenu {
+    width: 100%;
+    display: flex;
+    padding: 20px 0px 24px 12px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    line-height: 1.2;
+  }
+  .blogmenu li {
+    padding-right: 32px;
+  }
+  .blogmenu::-webkit-scrollbar {
+    display: none;
+  }
+  .blogs {
+    width: 100%;
+  }
+  .blogCard {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .blogCard .blogDesc {
+    padding: 0px 8px;
+  }
+  .blogCard .blogDesc .blogtag {
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .blogPaper h5 {
+    margin-bottom: 12px;
+  }
+}
+.contactTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.contactTitle .title-lg {
+  margin-bottom: 24px;
+}
+.contactTitle p {
+  color: #919191;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5;

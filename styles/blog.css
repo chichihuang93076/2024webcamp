@@ -772,10 +772,7 @@ footer {
   }
 }
 .blogTitle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 80px;
 }
 .blogTitle .title-lg {
